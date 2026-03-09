@@ -104,8 +104,8 @@ import { createClient } from “@supabase/supabase-js”;
 // ════════════════════════════════════════════════
 // ★ここにSupabaseの情報を入力してください★
 // Supabase → Project Settings → API
-const SUPABASE_URL = “https://your-project.supabase.co”;
-const SUPABASE_KEY = “your-anon-public-key”;
+const SUPABASE_URL = "https://fyjinbtwvfmnjcwmyhjv.supabase.co"
+const SUPABASE_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5amluYnR3dmZtbmpjd215aGp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI4NjEyOTUsImV4cCI6MjA4ODQzNzI5NX0.jf5fMZe8hwuXEWxHDnWsIAYv1WHljLhodX1CeCN2_6k
 // ════════════════════════════════════════════════
 
 const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
